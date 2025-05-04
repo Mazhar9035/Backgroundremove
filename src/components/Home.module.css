@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* height: 100vh; */
+  width: 100vw;
+  /* background-color: aliceblue; */
+  position: absolute;
+}
+.section1 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  gap: 5rem;
+  margin: 150px;
+}
+.left {
+  height: 400px;
+  width: 400px;
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+img {
+  height: 200px;
+  width: 300px;
+  background-image: url("");
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+}
+.h1 {
+  font-size: 3.3rem;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 30px;
+}
+.p {
+  font-size: 1.8rem;
+  margin-top: 10px;
+  /* text-align: left; */
+}
+.span {
+  background-color: orange;
+  border-radius: 30px;
+}
+
+.right {
+  /* height: 600px; */
+  width: 400px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 1px 2px 5px;
+  border: 0;
+  outline: 0;
+}
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+}
+.right input {
+  display: none;
+}
+.right label {
+  padding: 15px;
+  background-color: rgb(0, 0, 255, 0.8);
+  color: white;
+  font-size: 23px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.upper h2 {
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 30px;
+}
+.upper p {
+  color: rgba(0, 0, 0, 0.781);
+  margin-top: 10px;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.section2 .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 20px;
+}
+
+.section2 .buttons button {
+  border: none;
+  font-size: 1.3rem;
+  background-color: white;
+  cursor: pointer;
+}
+.section2 .buttons button:hover {
+  background-color: rgb(211, 211, 211, 0.7);
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.section2 .images {
+  /* height: 400px;
+  width: 600px;
+  background-color: aquamarine;
+  /* margin-top: 20px;* */
+  background-image: url("remove-bg.jpg");
+  height: 400px;
+  width: 800px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-size: 100% 100%;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.section3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15rem;
+}
+
+.section3 .content {
+  width: 40%;
+  height: auto;
+}
+.section3 .content h1 {
+  font-size: 2.5rem;
+  /* margin-bottom: 20px; */
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+}
+.section3 .content p {
+  font-size: 1.31rem;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.section3 .pic {
+  background-image: url("image.png");
+  background-size: 100% 100%;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  width: 30%;
+  height: 350px;
+}
+
+.section4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15rem;
+  background-color: rgba(234, 161, 26, 0.9);
+  padding: 20px;
+}
+
+.section4 .reviews {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.section4 .review {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 5px white;
+}
+.reviews .icon1 {
+  background-image: url("sony-music.webp");
+  background-size: 100% 100%;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+}
+
+.review h3 {
+  margin-top: 20px;
+}
+.reviews .img1 {
+  margin-top: 100px;
+  background-image: url("barso.jpg");
+  background-size: 100% 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.reviews p {
+  margin-top: 10px;
+}
+
+.reviews .icon2 {
+  background-image: url("phoenix.jpg");
+  background-size: 100% 100%;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+}
+
+.reviews .img2 {
+  margin-top: 80px;
+  background-image: url("marc.jpeg");
+  background-size: 100% 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.reviews .icon3 {
+  background-image: url("Tech.png");
+  background-size: 100% 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.reviews .img3 {
+  margin-top: 50px;
+  background-image: url("taylor.jpeg");
+  background-size: 100% 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+hr {
+  margin-top: 100px;
+}
+.footer {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer .topfooter {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10rem;
+}
+.topfooter h3 {
+  color: rgba(0, 0, 0, 0.7);
+}
+.topfooter ul li {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.topfooter li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 200;
+}
+
+.footer .bottomfooter {
+  margin-top: 50px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .p {
+    font-size: 1rem;
+  }
+
+  .section2 .images {
+    width: 600px;
+    height: 400px;
+  }
+
+  .section3 {
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 3rem;
+  }
+
+  .section4 .reviews {
+    flex-direction: column;
+  }
+
+  .topfooter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section1 .left .h1 {
+    text-align: center;
+  }
+  .section1 {
+    margin: 100px auto;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section4 {
+    margin-top: 3rem;
+  }
+  .footer {
+    margin-top: 1rem;
+  }
+  .topfooter ul {
+    margin-bottom: -3rem;
+  }
+  .topfooter ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 610px) {
+  .right label {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+  .section2 .images {
+    width: 500px;
+    height: 200px;
+  }
+  .section2 h1 {
+    font-size: 1.5rem;
+  }
+  .section1 .left .h1 {
+    text-align: center;
+  }
+  .section2 .buttons {
+    font-size: 1rem;
+  }
+
+  .section3 .content h1 {
+    font-size: 1.5rem;
+  }
+  .topfooter ul {
+    margin-bottom: -3rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .section2 .images {
+    width: 300px;
+    height: 200px;
+  }
+  .section2 .buttons {
+    font-size: 0.9rem;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+  }
+  .section1 .left .h1 {
+    text-align: center;
+  }
+  .topfooter ul {
+    margin-bottom: -3rem;
+  }
+  .section3 .pic {
+    width: 30%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .h1 {
+    /* font-size: 1.2rem; */
+    text-align: center;
+  }
+  .left img {
+    height: 170px;
+    width: 240px;
+  }
+
+  .p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 0.5rem;
+  }
+  /* .section1 .left .h1 {
+    text-align: center;
+  } */
+  .section2 .images {
+    width: 225px;
+    height: 170px;
+  }
+
+  .section2 h1,
+  .section3 .content h1 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .section2 .buttons {
+    font-size: 0.8rem;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .section3 {
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  .section3 .pic {
+    width: 80%;
+    height: 150px;
+  }
+
+  .topfooter ul {
+    flex-direction: column;
+    margin-bottom: -2rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .right label {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  .section1 {
+    margin: 50px auto;
+    gap: 1.5rem;
+  }
+  .section4 .review {
+    width: 200px;
+  }
+}

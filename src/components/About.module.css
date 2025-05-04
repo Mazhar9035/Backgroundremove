@@ -1,0 +1,45 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 3px 7px 15px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 7rem;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.features {
+  margin-top: 2rem;
+}
+
+.features h2 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.features ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  color: #444;
+}
+
+.footerNote {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #888;
+  text-align: center;
+}

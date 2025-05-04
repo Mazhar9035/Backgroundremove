@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(254, 254, 254, 0.9);
+  /* height: 60px; */
+  width: 100vw;
+  gap: 2rem;
+  padding: 20px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.head1 {
+  cursor: pointer;
+}
+.head1 h1 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: larger;
+}
+
+.icon {
+  margin: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.bg {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.navmenu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 2rem;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 15rem;
+}
+.navmenu ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.navmenu ul li :hover {
+  background-color: lightgray;
+}
+
+.authButtons {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 10px;
+}
+.authButtons button {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.authButtons button:hover {
+  background-color: lightgrey;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.navmenu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.authButtons {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 920px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navmenu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    display: none;
+  }
+
+  .navmenu ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navmenu ul li {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .navmenu ul li a {
+    width: 100%;
+    display: block;
+  }
+
+  .navmenu .authButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navmenu.navActive {
+    display: flex;
+  }
+
+  .head2,
+  .head3 {
+    display: none; /* Hide original layout on mobile */
+  }
+}
